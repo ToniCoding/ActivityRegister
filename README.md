@@ -11,9 +11,9 @@ Create registry is the first and the only functional function so far. The proces
   - Entry: Text of the entry. By default, if the entry is empty the entry will be "emptyEntry".
 Once every area is filled, the program will make a summary like this:
 "Information about the new registry:
-    >>> Name: <entryName>
-    >>> Category: <category>
-    >>> Entry: <entry>
+    - Name: <entryName>
+    - Category: <category>
+    - Entry: <entry>
 
 Entry will be deprecated in case you input a wrong confirmation.
 Are you sure you want to create a new registry with this data? (Y/n): "
