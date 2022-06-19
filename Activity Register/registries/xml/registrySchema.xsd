@@ -1,0 +1,19 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="registries">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="registry" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="category"/>
+              <xs:element type="xs:string" name="entry"/>
+              <xs:element type="xs:integer" name="id"/>
+              <xs:element type="xs:dateTime" name="date"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
