@@ -10,6 +10,7 @@ Create registry is the first and the only functional function so far. The proces
   - Entry category: User can assign any of the ALREADY CREATED CATEGORIES. There are three different categories created: General (Choosen by default and choosen if the category is not created), Physical, Self-care. In the future, user will be able to create, modify and delete categories.
   - Entry: Text of the entry. By default, if the entry is empty the entry will be "emptyEntry".
 Once every area is filled, the program will make a summary like this:
+
 "Information about the new registry:
     - Name: entryName
     - Category: category
