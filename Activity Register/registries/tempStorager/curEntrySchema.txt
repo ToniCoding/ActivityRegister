@@ -1,0 +1,12 @@
+currentEntry.txt is the way dataParser.py collects and store the data into an XML file so it can be saved in storage and not memory. It always add the name of the registry, 
+its category and its entry. After finishing the collection of data, dataParser.py is also in charge of getting and adding the ID and current date to the XML.
+
+|------|----------|-------|---------|-------|
+| NAME | CATEGORY | ENTRY | CURDATE |  IDR  |
+|------|----------|-------|---------|-------|
+| Exam | CatExamp | EntEx | dateFmt |   N   |
+|------|----------|-------|---------|-------|
+
+When dataParser.py is finished, it's in charge of deleting the file content.
+
+NOTE: IDR means Registry ID.

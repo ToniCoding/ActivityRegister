@@ -1,0 +1,22 @@
+Project name: Activity Register.
+Project version: InDev_0.1.
+Project start date: 27/05/2022.
+Developer: Toni Coding.
+License: GNU V3.
+Languages: Python, XML.
+Plugins used: TkInter [GUI].
+Description:
+    This project is created to provide an easy way to register activities or lists. Program core is coded in Python and information is stored in XML files.
+    Project is intended to be open source under the General Public License (GNU/GPL v3.0). 
+Approach:
+    - No GUI approach:
+        >>> Welcome user.
+        >>> Ask for activity category (general, physical, self-care or user-registered category).
+        >>> Before asking for category, print a list with available categories included user-registered categories (marked).
+        >>> Once the user have choosen the category follow the following schema:
+            {
+                - Category: <choosenCategory>
+                - Created: <Now>/<Yesterday>/<Few days ago>/<ifLongAgo --- Date>, Date.
+                - Separator.
+                - User notes. User will be asked if they want to add more or not. Default is YES, can be changed in settings.
+            }

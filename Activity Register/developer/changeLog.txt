@@ -1,0 +1,8 @@
+29/05/2022
+    >>> currentID.txt is no longer necessary.
+    >>> IDs are now randomly generated and are between 0 and 1000.
+    >>> For now, IDs are repeateable.
+    >>> Software now creates the files at './registries/xml/regStorage'.
+
+30/05/2022
+    >>> Data is now parsed correctly and passed into XML file respecting XSD schema.
