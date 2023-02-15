@@ -29,3 +29,7 @@ You can see the registries that have been created in the following path: "./Acti
   
 ## ActivityRegister - Registry (XML) file name.
 The name of the AR registry follows the following schema: "registry_month_day_THour_Minute_Second". The letter "T" stands for "Time", it's like a highlighter for the time.
+
+
+### IMPORTANT
+Development of Activity Register is now on stand-by. I'm currently focusing more on learning in-deep C++.
